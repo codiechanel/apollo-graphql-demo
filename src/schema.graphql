@@ -1,0 +1,18 @@
+type Book {
+  title: String
+  author: String
+}
+
+type Repo {
+  id: Int
+  name: String
+  #      user: User
+  full_name: String
+}
+
+# The "Query" type is the root of all GraphQL queries.
+# (A "Mutation" type will be covered later on.)
+type Query {
+  books: [Book]
+  repo(name: String!): Repo
+}
