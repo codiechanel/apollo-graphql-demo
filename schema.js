@@ -20,8 +20,9 @@ const typeDefs = gql `
   type Repo {
     id: Int
     name: String
+    owner: String
     user: User
-    full_name: String
+    full_name: String!
   }
 
   # The "Query" type is the root of all GraphQL queries.
