@@ -1,3 +1,3 @@
 # apollo-graphql-demo
 
-test
+test cool
