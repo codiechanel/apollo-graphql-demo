@@ -3,9 +3,9 @@
     "target": "es6",
     "module": "commonjs",
     "outDir": "./",
-    "sourceMap": true
+    "sourceMap": false
   },
   "types": ["node"],
-  "include": ["src/**/*.ts"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules"]
 }
